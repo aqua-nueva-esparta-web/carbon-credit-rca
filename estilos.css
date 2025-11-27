@@ -61,3 +61,37 @@ body {
     margin-bottom: 15px;
     margin-top: 30px;
 }
+
+
+/* Borde decorativo turquesa */
+.content-section .highlight-box {
+    border-left: 4px solid #1abc9c;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+/* Mejorar estilos de listas */
+.content-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content-section ul li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+.content-section ul li:before {
+    content: '▪️';
+    position: absolute;
+    left: 0;
+}
+
+/* Navbar brand link */
+.navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
