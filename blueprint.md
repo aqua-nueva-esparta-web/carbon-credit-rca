@@ -1,8 +1,8 @@
-# Blueprint: Agropoli República Centroafricana
+# Blueprint: República Centroafricana - Créditos de Carbono
 
 ## Visión General
 
-Este proyecto es un sitio web estático para Agropoli República Centroafricana, una iniciativa centrada en la generación de créditos de carbono a través de un modelo de desarrollo sostenible en la República Centroafricana. El sitio web tiene como objetivo proporcionar información sobre el proyecto, sus socios y el impacto que busca generar.
+Este proyecto es un sitio web estático para una iniciativa centrada en la generación de créditos de carbono a través de un modelo de desarrollo sostenible en la República Centroafricana. El sitio web tiene como objetivo proporcionar información sobre el proyecto, sus socios y el impacto que busca generar.
 
 ## Plan de Desarrollo Actual
 

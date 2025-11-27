@@ -105,7 +105,7 @@ main section, .content-section {
     max-width: 900px;
     margin: 40px auto;
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
     animation: fadeIn 0.8s ease-out forwards; /* Added fade-in animation */
@@ -219,7 +219,7 @@ main section h2, .content-section h2 {
 }
 
 .socio-card {
-    background: var(--secondary-color);
+    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
