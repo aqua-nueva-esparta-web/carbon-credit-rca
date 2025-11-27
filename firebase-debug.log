@@ -1,0 +1,468 @@
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T02:06:49.788Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:49.789Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T02:06:49.797Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.798Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.799Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.802Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.804Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.858Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.859Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.859Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.860Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.860Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.863Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.863Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.863Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.864Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.864Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.881Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.881Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.881Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.882Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.882Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.885Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.886Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.886Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.886Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.886Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.889Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:49.889Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T02:06:49.891Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.891Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.891Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.892Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.892Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.895Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.895Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.895Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.895Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.895Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.897Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.898Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.898Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.898Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.898Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.903Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.904Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.904Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.904Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.904Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:49.908Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.909Z] Checked if tokens are valid: false, expires at: 1764207610236
+[debug] [2025-11-27T02:06:49.909Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T02:06:49.909Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T02:06:49.909Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.033Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.033Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.055Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.056Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.071Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.071Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.082Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.082Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.108Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.110Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.125Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T02:06:50.125Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.130Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.130Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.146Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T02:06:50.147Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.151Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.151Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.161Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.161Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.164Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.164Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.174Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.174Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.195Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.195Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.211Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.211Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.222Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.222Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.236Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.236Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.239Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.239Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.248Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.248Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.250Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T02:06:50.250Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T02:06:50.259Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T02:06:50.259Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T02:06:50.797Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T02:06:50.797Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T02:06:50.803Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T02:06:50.804Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T02:06:50.827Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T02:06:50.828Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T02:06:50.855Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T02:06:50.856Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-27T02:06:50.918Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T02:06:50.918Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-27T02:06:50.953Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T02:06:50.954Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T02:06:50.974Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T02:06:50.975Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-27T02:06:51.006Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T02:06:51.007Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-27T02:06:51.021Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T02:06:51.021Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-27T02:06:51.025Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T02:06:51.026Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T02:06:51.035Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:51.035Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T02:06:51.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:51.037Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T02:06:51.092Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:51.094Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T02:06:51.096Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:51.096Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T02:06:51.102Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:51.102Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T02:06:51.104Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T02:06:51.104Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:26:00.253Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:00.254Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T08:26:00.264Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.264Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.266Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.269Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.269Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.324Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.325Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.325Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.326Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.326Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.329Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.329Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.330Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.330Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.330Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.346Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.346Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.346Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.347Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.347Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.351Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.351Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.351Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.352Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.352Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.355Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:00.355Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T08:26:00.356Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.357Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.357Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.358Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.358Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.361Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.361Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.361Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.362Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.362Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.364Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.365Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.365Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.365Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.365Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.372Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.372Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.372Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.373Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.373Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.380Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.380Z] Checked if tokens are valid: false, expires at: 1764212809251
+[debug] [2025-11-27T08:26:00.380Z] > refreshing access token with scopes: []
+[debug] [2025-11-27T08:26:00.381Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-11-27T08:26:00.381Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.503Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.503Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.526Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.527Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.531Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.531Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.544Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.545Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.581Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.581Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.603Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.603Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.614Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.614Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.625Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.625Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.651Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.651Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.661Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T08:26:00.662Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.665Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.665Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.675Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.675Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.705Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.705Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.721Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.721Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.738Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.738Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.750Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.750Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.754Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.754Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.765Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T08:26:00.766Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:00.770Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-11-27T08:26:00.770Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-11-27T08:26:00.782Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T08:26:00.782Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:26:01.317Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T08:26:01.318Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T08:26:01.352Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T08:26:01.352Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-27T08:26:01.371Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T08:26:01.371Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-27T08:26:01.416Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T08:26:01.417Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T08:26:01.439Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T08:26:01.445Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-27T08:26:01.451Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T08:26:01.451Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-27T08:26:01.477Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T08:26:01.477Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T08:26:01.510Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T08:26:01.510Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T08:26:01.533Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T08:26:01.533Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:26:01.558Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:01.559Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:26:01.566Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:01.567Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T08:26:01.571Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T08:26:01.574Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:26:01.668Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:01.668Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:26:01.677Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:01.677Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:26:01.690Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:01.690Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:26:01.692Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:26:01.692Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:28:28.005Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.006Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T08:28:28.015Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.016Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.017Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.017Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.018Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.019Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.030Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.031Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.032Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.032Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.032Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.032Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T08:28:28.035Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.035Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.089Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.089Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.091Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.092Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.093Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.094Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.095Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T08:28:28.096Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.098Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.098Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.098Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.098Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.099Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.099Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.102Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.102Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.103Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.103Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T08:28:28.103Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.103Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.106Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.106Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.109Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.109Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.112Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T08:28:28.112Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.114Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T08:28:28.114Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T08:28:28.803Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T08:28:28.804Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T08:28:28.816Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T08:28:28.816Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T08:28:28.878Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T08:28:28.879Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-27T08:28:28.880Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T08:28:28.880Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T08:28:28.901Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T08:28:28.901Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T08:28:28.903Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T08:28:28.903Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-27T08:28:28.919Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T08:28:28.919Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-27T08:28:28.921Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T08:28:28.921Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-27T08:28:28.924Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T08:28:28.924Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:28:28.933Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.933Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:28:28.935Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.936Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T08:28:28.938Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T08:28:28.939Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:28:28.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.975Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:28:28.976Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.977Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:28:28.989Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.989Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T08:28:28.991Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T08:28:28.991Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T09:08:33.014Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:33.016Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T09:08:33.027Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.028Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.029Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.029Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.030Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.030Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.051Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.052Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.052Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.053Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.053Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:33.054Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T09:08:33.056Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.057Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.109Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.109Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.112Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.112Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.115Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.115Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.118Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T09:08:33.118Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.121Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.122Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.122Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.122Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.122Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.122Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.126Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.126Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.126Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.127Z] Checked if tokens are valid: true, expires at: 1764235559770
+[debug] [2025-11-27T09:08:33.127Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.127Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.130Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.130Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.133Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.133Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.136Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [none]
+[debug] [2025-11-27T09:08:33.136Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.138Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [none]
+[debug] [2025-11-27T09:08:33.138Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com x-goog-quota-user=projects/carbon-credit-rca-665748-30f16
+[debug] [2025-11-27T09:08:33.804Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T09:08:33.804Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T09:08:33.831Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com 403
+[debug] [2025-11-27T09:08:33.831Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseio.com [omitted]
+[debug] [2025-11-27T09:08:33.909Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T09:08:33.909Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2025-11-27T09:08:33.929Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T09:08:33.929Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[debug] [2025-11-27T09:08:33.935Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T09:08:33.936Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-27T09:08:33.955Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T09:08:33.956Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T09:08:33.964Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com 200
+[debug] [2025-11-27T09:08:33.965Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firestore.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T09:08:33.975Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:33.975Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T09:08:33.980Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:33.980Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[debug] [2025-11-27T09:08:33.987Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com 200
+[debug] [2025-11-27T09:08:33.993Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2025-11-27T09:08:34.002Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com 200
+[debug] [2025-11-27T09:08:34.002Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-11-27T09:08:34.014Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com 200
+[debug] [2025-11-27T09:08:34.014Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/carbon-credit-rca-665748-30f16/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T09:08:34.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:34.051Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T09:08:34.052Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:34.053Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T09:08:34.063Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:34.063Z] > authorizing via signed-in user (estrategofinancial@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2025-11-27T09:08:34.065Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-11-27T09:08:34.065Z] > authorizing via signed-in user (estrategofinancial@gmail.com)

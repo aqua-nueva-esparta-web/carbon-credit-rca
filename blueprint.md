@@ -1,58 +1,39 @@
-# Blueprint: AGROPOLI RDC Website (Versión 1.0)
+# Blueprint: Agropoli Republica Centro Africana
 
-## 1. Visión General del Proyecto
+## Visión General
 
-El sitio web de AGROPOLI RDC es una página web estática e informativa diseñada para presentar la misión de la iniciativa, mostrar su modelo operativo en la República Democrática del Congo y detallar el rol de los socios clave que respaldan el proyecto. Sirve como un punto de contacto digital profesional para stakeholders, potenciales inversores y el público general interesado en proyectos de desarrollo sostenible y créditos de carbono.
+Este proyecto es un sitio web estático de una sola página para "Agropoli Republica Centro Africana". El sitio presenta la misión de la empresa, que se centra en la generación de créditos de carbono de alta calidad en la República Centroafricana a través de un modelo de desarrollo sostenible. También destaca a sus socios estratégicos.
 
----
+## Estructura del Proyecto
 
-## 2. Esquema del Proyecto y Características Implementadas
+*   `index.html`: La página de inicio principal.
+*   `style.css`: La hoja de estilos principal para la página de inicio.
+*   `estilos.css`: Una hoja de estilos compartida para las páginas de los socios y proyectos.
+*   `proyecto-redd.html`: Página de detalles para el proyecto REDD+.
+*   `socio-capitalimprese.html`: Página de detalles para el socio Capitalimprese.
+*   `socio-arioli.html`: Página de detalles para el socio Instituto Arioli.
+*   `socio-blotix.html`: Página de detalles para el socio Blotix Fund LLC.
+*   `assets/`: Directorio para imágenes y otros recursos (actualmente usando imgur).
 
-Esta sección documenta la arquitectura, el diseño y las funcionalidades del sitio web en su estado actual.
+## Diseño y Estilo
 
-### 2.1. Pila Tecnológica
-- **Lenguajes:** HTML5, CSS3
-- **Estilo:** CSS plano con uso de Variables CSS (`:root`) para una temática consistente.
-- **Tipografía:** `Montserrat` importada desde Google Fonts.
-- **Principios de Diseño:** Diseño responsivo (Mobile-First), centrado en la claridad visual y la coherencia de la marca.
+*   **Tipografía:** Montserrat de Google Fonts.
+*   **Colores:** Paleta de verdes y blancos, evocando naturaleza y sostenibilidad.
+*   **Diseño:** Limpio y moderno, con una sección de héroe prominente, seguida de secciones para el modelo de negocio y los socios.
+*   **Iconografía:** Se utilizan emojis (🌱) para dar un toque orgánico a las listas en la página del proyecto.
 
-### 2.2. Estructura de Archivos Final
-```
-/
-├── index.html              # Página principal de aterrizaje (Landing Page)
-├── estilos.css             # Hoja de estilos para las páginas de socios
-├── socio-capitalimprese.html # Página de detalle del socio Capitalimprese
-├── socio-arioli.html       # Página de detalle del socio Instituto Arioli
-└── socio-blotix.html       # Página de detalle del socio Blotix Fund LLC
-```
+## Funcionalidad
 
-### 2.3. Diseño y Componentes
+*   Navegación a las páginas de los socios y proyectos desde la página principal.
+*   Diseño receptivo para una buena visualización en dispositivos móviles y de escritorio.
+*   Gráfico de distribución de créditos interactivo en la página del proyecto REDD+ usando Chart.js.
 
-#### A. Página Principal (`index.html`)
+## Plan de Desarrollo Actual
 
-- **Sección Hero de Portada:**
-    - Usa `min-height: 100vh` para ocupar toda la pantalla y expandirse si el contenido es grande, evitando superposiciones.
-    - **Fondo:** Imagen fija (`GQj3J5Q.png`) con superposición oscura para legibilidad.
-    - **Contenido Centrado:** Logo, títulos y párrafo descriptivo centrados vertical y horizontalmente.
-    - **Títulos Fluidos:** `clamp()` para `h1` y `h2` asegura una tipografía adaptable.
-- **Sección del Modelo AGROPOLI:** Presenta el modelo de negocio con texto y un mapa del proyecto.
-- **Sección de Socios:** Rejilla responsiva con los logos de los socios que enlazan a sus páginas de detalle.
-
-#### B. Páginas de Socios (`socio-*.html`)
-
-- **Plantilla Consistente:** Usan `estilos.css` para una apariencia unificada.
-- **Navegación:** Barra superior para volver a la página principal.
-- **Contenido Flotante:** Sección principal con fondo semi-transparente que destaca sobre el fondo de la página.
-
----
-
-## 3. Historial de Finalización (Versión 1.0)
-
-- **Objetivo Final:** Consolidar el diseño, corregir todos los errores visuales y establecer una versión estable del sitio web.
-- **Pasos de Finalización:**
-    1.  **Aislamiento de Estilos:** Se encapsularon los estilos de `index.html` para evitar conflictos.
-    2.  **Ajustes de Diseño en Portada:** Se refinó el tamaño del logo, la tipografía y el espaciado de los textos.
-    3.  **Eliminación de Elementos:** Se quitó el botón CTA de la portada para un diseño más limpio.
-    4.  **Corrección de Superposición (Error #1):** Se ajustaron los márgenes entre el subtítulo y el párrafo de la portada.
-    5.  **Corrección de Desbordamiento (Error #2 - Final):** Se cambió `height: 100vh` por `min-height: 100vh` en la sección de la portada para solucionar definitivamente el problema de superposición de contenido en diferentes tamaños de pantalla.
-    6.  **Creación del Punto de Restauración:** El proyecto se ha documentado y guardado en este estado estable (v1.0).
+*   **Tarea:** Añadir un diagrama circular para la distribución de créditos y cambiar las viñetas por un icono de planta en la página `proyecto-redd.html`.
+*   **Pasos:**
+    1.  Añadir la librería Chart.js desde un CDN a `proyecto-redd.html`.
+    2.  Insertar un elemento `<canvas>` para el gráfico.
+    3.  Añadir un script para crear un gráfico de tipo "doughnut" que muestre la distribución de créditos (65.1% Gobierno de la RCA, 34.9% Inversores Privados).
+    4.  Añadir CSS para eliminar los estilos de lista por defecto y usar el emoji '🌱' como viñeta.
+    5.  Actualizar este `blueprint.md`.
