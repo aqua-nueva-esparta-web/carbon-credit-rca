@@ -1,5 +1,4 @@
 /* style.css */
-
 :root {
     --primary-color: #2c3e50;
     --secondary-color: #ffffff;
@@ -12,12 +11,43 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     line-height: 1.6;
-    background-color: var(--bg-color);
+    /* Fondo global con imagen de bosque */
+    background-image: url('https://i.imgur.com/GQj3J5Q.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: var(--primary-color);
 }
 
 main {
     margin: 0 0.5cm;
+}
+
+/* Navbar para páginas de socios */
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar .back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar .back-button:hover {
+    color: var(--accent-color);
 }
 
 .hero-section {
@@ -36,7 +66,8 @@ main {
 }
 
 .hero-content .logo {
-    max-width: 255px;    margin-bottom: 20px;
+    max-width: 255px;
+    margin-bottom: 20px;
 }
 
 .hero-content h1 {
