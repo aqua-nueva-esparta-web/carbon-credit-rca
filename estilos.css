@@ -1,6 +1,11 @@
 /* estilos.css */
 
 body {
+        /* Agregar imagen de fondo del bosque */
+    background-image: url('https://i.imgur.com/GQj3J5Q.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     background-color: #f4f4f9;
@@ -23,6 +28,14 @@ body {
 }
 
 .content-section {
+        /* Rectángulo blanco semi-transparente con márgenes laterales */
+    max-width: 1200px;
+    width: calc(100% - 2cm);
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     max-width: 800px;
     margin: 40px auto;
     padding: 30px;
