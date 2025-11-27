@@ -16,6 +16,10 @@ body {
     color: var(--primary-color);
 }
 
+main {
+    margin: 0 0.5cm;
+}
+
 .hero-section {
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://i.imgur.com/GQj3J5Q.png');
@@ -32,8 +36,7 @@ body {
 }
 
 .hero-content .logo {
-    max-width: 150px;
-    margin-bottom: 20px;
+    max-width: 255px;    margin-bottom: 20px;
 }
 
 .hero-content h1 {
