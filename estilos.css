@@ -41,3 +41,23 @@ body {
 .content-section p {
     line-height: 1.8;
 }
+
+.partner-logo {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.content-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.content-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
