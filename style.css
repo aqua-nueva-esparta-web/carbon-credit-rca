@@ -5,6 +5,7 @@
     --secondary-color: #ffffff;
     --accent-color: #2ECC71;
     --text-color: rgba(255, 255, 255, 0.9);
+    --bg-color: #f4f4f9;
 }
 
 body {
@@ -115,7 +116,6 @@ main section h2 {
     transform-origin: bottom left;
 }
 
-/* --- Socios --- */
 .socios-grid {
     display: flex;
     flex-wrap: wrap;
@@ -125,13 +125,16 @@ main section h2 {
 }
 
 .socio-card {
+    background: var(--secondary-color);
     padding: 20px;
     border-radius: 10px;
-    transition: transform 0.3s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .socio-card:hover {
     transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 
 .socio-card img {
