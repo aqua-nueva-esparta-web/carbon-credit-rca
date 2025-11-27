@@ -162,11 +162,12 @@ main section h2, .content-section h2 {
 
 /* --- Specific section styles --- */
 .mapa-proyecto {
-    width: 100%;
+    display: block;
+    max-width: 100%;
     height: auto;
+    margin: 20px auto 0;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    margin-top: 20px;
 }
 
 .redd-section p {
