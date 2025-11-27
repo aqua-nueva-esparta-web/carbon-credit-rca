@@ -108,3 +108,16 @@ body {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
+
+        /* Estilo para enlace de navegación "Volver a Inicio" */
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #1abc9c !important;
+}
