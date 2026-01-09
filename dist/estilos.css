@@ -150,3 +150,60 @@ body {
     background-color: #008a4a;
     transform: translateY(-2px);
 }
+
+
+/* Selector de idiomas */
+.language-selector {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.lang-btn {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #2d5a3d;
+  border-radius: 8px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d5a3d;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.lang-btn:hover {
+  background: #2d5a3d;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lang-btn.active {
+  background: #2d5a3d;
+  color: white;
+  box-shadow: 0 4px 12px rgba(45, 90, 61, 0.3);
+}
+
+.flag {
+  font-size: 18px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .language-selector {
+    top: 10px;
+    right: 10px;
+    gap: 5px;
+  }
+  .lang-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+
