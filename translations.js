@@ -9,6 +9,8 @@ const translations = {
     projectButton: 'Ver detalles del proyecto',
     partnersTitle: 'Nuestros Socios Estratégicos',
     footerText: '© 2024 República Centroafricana. Todos los derechos reservados.'
+        pageTitle: 'Proyecto REDD+ – República Centroafricana',
+        backToHome: 'PAGINA PRINCIPAL →',
   },
   en: {
     heroTitle: 'Central African Republic',
@@ -19,6 +21,8 @@ const translations = {
     projectButton: 'View project details',
     partnersTitle: 'Our Strategic Partners',
     footerText: '© 2024 Central African Republic. All rights reserved.'
+        pageTitle: 'REDD+ Project – Central African Republic',
+        backToHome: 'MAIN PAGE →',
   },
   it: {
     heroTitle: 'Repubblica Centrafricana',
@@ -29,5 +33,7 @@ const translations = {
     projectButton: 'Vedi dettagli del progetto',
     partnersTitle: 'I Nostri Partner Strategici',
     footerText: '© 2024 Repubblica Centrafricana. Tutti i diritti riservati.'
+        pageTitle: 'Progetto REDD+ – Repubblica Centrafricana',
+        backToHome: 'PAGINA PRINCIPALE →',
   }
 };
