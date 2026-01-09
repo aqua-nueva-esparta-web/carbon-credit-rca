@@ -279,5 +279,33 @@ footer {
     background-color: rgba(44, 62, 80, 0.9);
     color: var(--secondary-color);
     text-align: center;
+
+    /* --- Botón Ver detalles del proyecto --- */
+.btn-proyecto {
+    display: inline-block;
+    background: linear-gradient(135deg, #2ECC71 0%, #1abc9c 100%);
+    color: white;
+    padding: 14px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-proyecto:hover {
+    background: linear-gradient(135deg, #27ae60 0%, #16a085 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(46, 204, 113, 0.6);
+}
+
+.proyecto-section {
+    text-align: center;
+}
     padding: 20px;
 }
