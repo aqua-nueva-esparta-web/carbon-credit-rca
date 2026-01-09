@@ -79,8 +79,19 @@
 
   // Cargar idioma guardado al iniciar
   window.addEventListener('DOMContentLoaded', () => {
-    const savedLang = localStorage.getItem('selectedLanguage') || 'es';
-    changeLanguage(savedLang);
+    // Detectar idioma del navegador
+    const browserLang = navigator.language || navigator.userLanguage;
+    let detectedLang = 'es'; // Por defecto español
+    
+    if (browserLang.startsWith('en')) {
+        detectedLang = 'en';
+    } else if (browserLang.startsWith('it')) {
+        detectedLang = 'it';
+    } else if (browserLang.startsWith('es')) {
+        detectedLang = 'es';
+    }
+    
+    const savedLang = localStorage.getItem('selectedLanguage') || detectedLang;    changeLanguage(savedLang);
   });
   </script>
 </body>
