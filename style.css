@@ -308,4 +308,42 @@ footer {
     text-align: center;
 }
     padding: 20px;
+
+    /* Selector de idiomas - Posicionado arriba a la derecha */
+.language-selector {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.lang-btn {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #2fcc71;
+    color: #2c3e50;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background-color: #2fcc71;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.lang-btn.active {
+    background-color: #2fcc71;
+    color: white;
+}
+
+.lang-btn .flag {
+    margin-right: 5px;
+}
 }
