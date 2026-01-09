@@ -181,12 +181,11 @@ function changeLanguage(lang) {
     document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
     document.getElementById('lang-' + lang).classList.add('active');
     const t = translations[lang];
-    document.querySelector('.hero-section h1').textContent = t.heroTitle;
-    document.querySelector('.hero-section h2').textContent = t.heroSubtitle;
-    document.querySelector('.hero-section p').textContent = t.heroDescription;
-    document.querySelector('title').textContent = t.projectTitle;
-    document.querySelector('.back-to-home-link').textContent = t.backToHome;
-}
+    // Traducir título de la página
+    document.querySelector('title').textContent = t.pageTitle;
+    // Traducir enlace de página principal
+    const homeLink = document.querySelector('a[href="/carbon-credit-rca/index.html"]');
+    if (homeLink) homeLink.textContent = t.backToHome;}
 
 // Cargar idioma guardado al iniciar
 window.addEventListener('DOMContentLoaded', () => {
