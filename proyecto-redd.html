@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Proyecto REDD+ – República Centroafricana</title>
     <link rel="stylesheet" href="style.css">
+        <script src="translations.js"></script>
     <link rel="icon" href="https://i.imgur.com/LErVBq2.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -37,6 +38,18 @@
 </head>
 <body>
     <header>
+                <!-- Selector de idiomas -->
+                <div class="language-selector">
+                                <button id="lang-es" class="lang-btn active" onclick="changeLanguage('es')">
+                                                    <span class="flag">🇪🇸</span> ES
+                                                </button>
+                                <button id="lang-en" class="lang-btn" onclick="changeLanguage('en')">
+                                                    <span class="flag">🇬🇧</span> EN
+                                                </button>
+                                <button id="lang-it" class="lang-btn" onclick="changeLanguage('it')">
+                                                    <span class="flag">🇮🇹</span> IT
+                                                </button>
+                            </div>
         <a href="index.html" class="back-to-home-link">PAGINA PRINCIPAL &rarr;</a>
     </header>
 
@@ -160,5 +173,38 @@
             }
         });
     </script>
+
+<script>
+// Función para cambiar idioma
+function changeLanguage(lang) {
+    localStorage.setItem('selectedLanguage', lang);
+    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('active');
+    const t = translations[lang];
+    document.querySelector('.hero-section h1').textContent = t.heroTitle;
+    document.querySelector('.hero-section h2').textContent = t.heroSubtitle;
+    document.querySelector('.hero-section p').textContent = t.heroDescription;
+    document.querySelector('title').textContent = t.projectTitle;
+    document.querySelector('.back-to-home-link').textContent = t.backToHome;
+}
+
+// Cargar idioma guardado al iniciar
+window.addEventListener('DOMContentLoaded', () => {
+    // Detectar idioma del navegador
+    const browserLang = navigator.language || navigator.userLanguage;
+    let detectedLang = 'es'; // Por defecto español
+    
+    if (browserLang.startsWith('en')) {
+        detectedLang = 'en';
+    } else if (browserLang.startsWith('it')) {
+        detectedLang = 'it';
+    } else if (browserLang.startsWith('es')) {
+        detectedLang = 'es';
+    }
+    
+    const savedLang = localStorage.getItem('selectedLanguage') || detectedLang;
+    changeLanguage(savedLang);
+});
+</script>
 </body>
 </html>
