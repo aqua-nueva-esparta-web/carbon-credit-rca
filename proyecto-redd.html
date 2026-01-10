@@ -182,7 +182,7 @@ function changeLanguage(lang) {
     document.getElementById('lang-' + lang).classList.add('active');
     const t = translations[lang];
     
-    // Traducir título de la página
+    // Traducir título y metadata
     document.querySelector('title').textContent = t.pageTitle;
     document.documentElement.lang = lang;
     
@@ -190,47 +190,141 @@ function changeLanguage(lang) {
     const homeLink = document.querySelector('a[href="index.html"]');
     if (homeLink) homeLink.textContent = t.backToHome;
     
-    // Traducir contenido principal
-    const sections = document.querySelectorAll('.content-section h2, .content-section h3, .content-section h4, .content-section p, .content-section li, .content-section a, .content-section strong');
-    
-    // H2 principal
+    // Traducir header principal
     const h2 = document.querySelector('.content-section h2');
     if (h2) h2.textContent = t.reddTitle;
     
-    // Subtítulo
     const subtitle = document.querySelector('.subtitle');
     if (subtitle) subtitle.textContent = t.reddSubtitle;
     
-    // Enlaces de documentación
     const docLinks = document.querySelector('.document-links');
     if (docLinks) docLinks.textContent = t.reddDocs;
     
-    // Todas las secciones H3
-    const h3Elements = document.querySelectorAll('.content-section h3');
-    if (h3Elements[0]) h3Elements[0].textContent = t.section1Title;
-    if (h3Elements[1]) h3Elements[1].textContent = t.section2Title;
-    if (h3Elements[2]) h3Elements[2].textContent = t.section3Title;
-    if (h3Elements[3]) h3Elements[3].textContent = t.section4Title;
-    if (h3Elements[4]) h3Elements[4].textContent = t.section5Title;
-    if (h3Elements[5]) h3Elements[5].textContent = t.section6Title;
-    if (h3Elements[6]) h3Elements[6].textContent = t.section7Title;
-    if (h3Elements[7]) h3Elements[7].textContent = t.section8Title;
-    if (h3Elements[8]) h3Elements[8].textContent = t.section9Title;
+    // Traducir todos los H3 (títulos de sección)
+    const h3s = document.querySelectorAll('.content-section h3');
+    const sections = ['section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7', 'section8', 'section9'];
+    h3s.forEach((h3, i) => {
+        if (sections[i] && t.content[sections[i]]) {
+            h3.textContent = t.content[sections[i]].title;
+        }
+    });
     
-    // Enlace del registro
+    // Traducir todos los párrafos de cada sección
+    const allP = document.querySelectorAll('.content-section > p');
+    let pIndex = 0;
+    
+    // Sección 1 - párrafos
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section1.p1;
+    if (allP[pIndex]) {
+        allP[pIndex].innerHTML = t.content.section1.p2 + ' <strong>' + t.content.section1.credits + '</strong>' + t.content.section1.p3;
+        pIndex++;
+    }
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section1.p4;
+    
+    // Sección 2 - párrafos
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section2.p1;
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section2.p2;
+    
+    // Sección 3 - párrafo
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section3.p1;
+    
+    // Sección 4 - párrafo
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section4.p1;
+    
+    // Sección 5 - párrafo
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section5.p1;
+    
+    // Sección 6 - párrafo
+    if (allP[pIndex]) {
+        allP[pIndex].innerHTML = t.content.section6.p1 + ' <strong>' + t.content.section6.credits + '</strong> ' + t.content.section6.p2;
+        pIndex++;
+    }
+    
+    // Sección 7 - párrafo
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section7.p1;
+    
+    // Sección 9 - párrafo
+    if (allP[pIndex]) allP[pIndex++].textContent = t.content.section9.p1;
+    
+    // Traducir todas las listas
+    const allLists = document.querySelectorAll('.content-section ul');
+    
+    // Sección 1 - lista
+    if (allLists[0]) {
+        const lis = allLists[0].querySelectorAll('li');
+        t.content.section1.li.forEach((text, i) => {
+            if (lis[i]) lis[i].textContent = text;
+        });
+    }
+    
+    // Sección 3 - lista con strong
+    if (allLists[1]) {
+        const lis = allLists[1].querySelectorAll('li');
+        t.content.section3.li.forEach((item, i) => {
+            if (lis[i]) lis[i].innerHTML = '<strong>' + item.strong + '</strong>' + item.text;
+        });
+    }
+    
+    // Sección 4 - lista con strong
+    if (allLists[2]) {
+        const lis = allLists[2].querySelectorAll('li');
+        t.content.section4.li.forEach((item, i) => {
+            if (lis[i]) lis[i].innerHTML = '<strong>' + item.strong + '</strong>' + item.text;
+        });
+    }
+    
+    // Sección 5 - lista
+    if (allLists[3]) {
+        const lis = allLists[3].querySelectorAll('li');
+        t.content.section5.li.forEach((text, i) => {
+            if (lis[i]) lis[i].textContent = text;
+        });
+    }
+    
+    // Sección 8 - h4 y listas
+    const h4s = document.querySelectorAll('.content-section h4');
+    if (h4s[0]) h4s[0].textContent = t.content.section8.environmental.title;
+    if (h4s[1]) h4s[1].textContent = t.content.section8.social.title;
+    if (h4s[2]) h4s[2].textContent = t.content.section8.economic.title;
+    
+    if (allLists[4]) {
+        const lis = allLists[4].querySelectorAll('li');
+        t.content.section8.environmental.li.forEach((text, i) => {
+            if (lis[i]) lis[i].textContent = text;
+        });
+    }
+    
+    if (allLists[5]) {
+        const lis = allLists[5].querySelectorAll('li');
+        t.content.section8.social.li.forEach((text, i) => {
+            if (lis[i]) lis[i].textContent = text;
+        });
+    }
+    
+    if (allLists[6]) {
+        const lis = allLists[6].querySelectorAll('li');
+        t.content.section8.economic.li.forEach((text, i) => {
+            if (lis[i]) lis[i].textContent = text;
+        });
+    }
+    
+    // Traducir enlace del registro
     const registryLink = document.querySelector('.pepitee-link a');
-    if (registryLink) registryLink.textContent = t.registryLink;
+    if (registryLink) registryLink.textContent = t.content.section7.linkText;
     
-    // H4 de sección 8
-    const h4Elements = document.querySelectorAll('.content-section h4');
-    if (h4Elements[0]) h4Elements[0].textContent = t.section8H1;
-    if (h4Elements[1]) h4Elements[1].textContent = t.section8H2;
-    if (h4Elements[2]) h4Elements[2].textContent = t.section8H3;
-    
-    // Footer
+    // Traducir footer
     const footer = document.querySelector('footer p');
     if (footer) footer.textContent = t.footerText;
+    
+    // Traducir labels del chart
+    if (typeof Chart !== 'undefined' && window.myChart) {
+        window.myChart.data.labels = t.content.section5.chartLabels;
+        window.myChart.options.plugins.title.text = t.content.section5.chartTitle;
+        window.myChart.update();
+    }
 }
+
+window.addEventListener('DOMContentLoaded', () => {}
 window.addEventListener('DOMContentLoaded', () => {
     // Detectar idioma del navegador
     const browserLang = navigator.language || navigator.userLanguage;
