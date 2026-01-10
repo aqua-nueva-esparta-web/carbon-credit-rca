@@ -181,13 +181,56 @@ function changeLanguage(lang) {
     document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
     document.getElementById('lang-' + lang).classList.add('active');
     const t = translations[lang];
+    
     // Traducir título de la página
     document.querySelector('title').textContent = t.pageTitle;
-    // Traducir enlace de página principal
-    const homeLink = document.querySelector('a[href="/carbon-credit-rca/index.html"]');
-    if (homeLink) homeLink.textContent = t.backToHome;}
-
-// Cargar idioma guardado al iniciar
+    document.documentElement.lang = lang;
+    
+    // Traducir enlace de vuelta
+    const homeLink = document.querySelector('a[href="index.html"]');
+    if (homeLink) homeLink.textContent = t.backToHome;
+    
+    // Traducir contenido principal
+    const sections = document.querySelectorAll('.content-section h2, .content-section h3, .content-section h4, .content-section p, .content-section li, .content-section a, .content-section strong');
+    
+    // H2 principal
+    const h2 = document.querySelector('.content-section h2');
+    if (h2) h2.textContent = t.reddTitle;
+    
+    // Subtítulo
+    const subtitle = document.querySelector('.subtitle');
+    if (subtitle) subtitle.textContent = t.reddSubtitle;
+    
+    // Enlaces de documentación
+    const docLinks = document.querySelector('.document-links');
+    if (docLinks) docLinks.textContent = t.reddDocs;
+    
+    // Todas las secciones H3
+    const h3Elements = document.querySelectorAll('.content-section h3');
+    if (h3Elements[0]) h3Elements[0].textContent = t.section1Title;
+    if (h3Elements[1]) h3Elements[1].textContent = t.section2Title;
+    if (h3Elements[2]) h3Elements[2].textContent = t.section3Title;
+    if (h3Elements[3]) h3Elements[3].textContent = t.section4Title;
+    if (h3Elements[4]) h3Elements[4].textContent = t.section5Title;
+    if (h3Elements[5]) h3Elements[5].textContent = t.section6Title;
+    if (h3Elements[6]) h3Elements[6].textContent = t.section7Title;
+    if (h3Elements[7]) h3Elements[7].textContent = t.section8Title;
+    if (h3Elements[8]) h3Elements[8].textContent = t.section9Title;
+    
+    // Enlace del registro
+    const registryLink = document.querySelector('.pepitee-link a');
+    if (registryLink) registryLink.textContent = t.registryLink;
+    
+    // H4 de sección 8
+    const h4Elements = document.querySelectorAll('.content-section h4');
+    if (h4Elements[0]) h4Elements[0].textContent = t.section8H1;
+    if (h4Elements[1]) h4Elements[1].textContent = t.section8H2;
+    if (h4Elements[2]) h4Elements[2].textContent = t.section8H3;
+    
+    // Footer
+    const footer = document.querySelector('footer p');
+    if (footer) footer.textContent = t.footerText;
+}
 window.addEventListener('DOMContentLoaded', () => {
     // Detectar idioma del navegador
     const browserLang = navigator.language || navigator.userLanguage;
