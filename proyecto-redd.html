@@ -210,7 +210,7 @@ function changeLanguage(lang) {
     });
     
     // Traducir todos los párrafos de cada sección
-    const allP = document.querySelectorAll('.content-section > p');
+    const allP = document.querySelectorAll('.content-section >  p:not(.subtitle):not(.document-links)');
     let pIndex = 0;
     
     // Sección 1 - párrafos
